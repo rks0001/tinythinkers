@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import {Container } from 'react-bootstrap'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Section1 from './sections/Section1'
+import Section2 from './sections/Section2'
+import Section3 from './sections/Section3'
+import Section4 from './sections/Section4'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      
+      <main>
+          <Container>
+            <div id="home" >
+            <Header/><Section1/>
+            </div>
+
+            <div id="skills">
+              <Section2/>
+            </div>
+
+            <div id="projects" >
+              <Section3/>
+            </div>
+
+
+            <div id="about" >
+              <Section4/>
+            </div>
+          </Container>
+      </main>
+      <Footer/>
+    </>
+  )
 }
 
-export default App;
+export default App
+
