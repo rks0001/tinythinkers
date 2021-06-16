@@ -206,12 +206,12 @@ a:focus {
     color: transparent;
     background-size: cover;
     background-image: linear-gradient(
-      147deg,
-      #0a2463,
-      #3e92cc 26%,
-      #1e1b18 50%,
-      #d8315b 75%,
-      #1e1b18
+      157deg,
+      #0a2463 20%,
+      #3e92cc 35%,
+      #1e1b18 57%,
+      #d8315b 55%,
+      #b10a34 10%
     );
   }
   .desp {
@@ -342,8 +342,8 @@ a:focus {
   }
 
   .probtn {
-    border: 1px solid #313638;
-    background: #313638;
+    border: 1px solid #000000;
+    background: #000000;
     padding: 8px 12px;
     border-radius: 4px;
     color: #ffffff;
@@ -413,8 +413,8 @@ a:focus {
   }
 
   .probtn {
-    border: 1px solid #313638;
-    background: #313638;
+    border: 1px solid #000000;
+    background: #000000;
     padding: 8px 12px;
     border-radius: 4px;
     color: #ffffff;

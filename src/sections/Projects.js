@@ -33,7 +33,7 @@ const Projects = ({project}) => {
             </Card.Text>
         
 
-            <Button className ='probtn my-3' variant="dark">Live Website</Button>
+            <Button className ='probtn my-3' variant="dark" href={project.link} target="_blank">Live Website</Button>
 
         </Card.Body>
         </Card>

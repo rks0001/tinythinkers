@@ -8,7 +8,7 @@ const projects = [
       tool_1: 'React',
       tool_2: 'React-Scroll',
       tool_3: 'null',
-      
+      link:'https://ranjit-kalita.netlify.app/',
     },
     {
       _id: '2',
