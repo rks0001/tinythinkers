@@ -14,14 +14,14 @@ const Footer = () => {
                     <Col>
                     </Col>
                     <Col lg={true} className="mt-5">
-                        <Row className='py-1 h6'> <a href="#">SOCIAL MEDIA</a></Row>
+                        <Row className='py-1 h6'> <a href="/">SOCIAL MEDIA</a></Row>
                         <Row className='py-1 h6'> <a href="https://www.youtube.com/channel/UC6oVsxjGoMSN1kOSlbZfTew" target="_blank " >YouTube</a></Row>
                         <Row className='py-1 h6 '><a href="https://twitter.com/ranjitkalita5o5" target="_blank "  >Twitter</a></Row>
                         <Row className='py-1 h6'><a href="https://www.linkedin.com/in/ranjit-kalita-a5316b167/" target="_blank "  >LinkedIn</a></Row>
                         <Row className='py-1 h6'><a href="https://github.com/rks0001" target="_blank "  >Github</a></Row>
                     </Col>
                     <Col lg={true} className="mt-5">
-                        <Row className='py-1 h6'> <a href="#">EXPLORE</a></Row>
+                        <Row className='py-1 h6'> <a href="/">EXPLORE</a></Row>
                         <Row className='py-1 h6' ><Link to="home" spy={true} smooth={false}>Home</Link></Row>
                         <Row className='py-1 h6'><Link  to="skills" spy={true} smooth={false}>Skills</Link></Row>
                         <Row className='py-1 h6'><Link  to="projects" spy={true} smooth={false}>Projects</Link></Row>
@@ -29,7 +29,7 @@ const Footer = () => {
                     </Col>
 
                     <Col lg={true} className="mt-5">
-                        <Row className='py-1 h6'> <a href="#">USEFUL LINKS</a></Row>
+                        <Row className='py-1 h6'> <a href="/">USEFUL LINKS</a></Row>
                         <Row className='py-1 h6'><a href="https://drive.google.com/file/d/1r5nKbQiYIyMk98lKlZaMc5vVCSzvyF77/view?usp=sharing" target="_blank " >Resume </a></Row>
                         
                     </Col>
