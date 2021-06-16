@@ -407,6 +407,11 @@ a:focus {
     padding: 20px 20px;
   }
 
+  .crd:hover {
+    transform: translate(4px, -8px);
+    box-shadow: -7px 7px rgb(0 0 0 / 12%);
+  }
+
   .probtn {
     border: 1px solid #313638;
     background: #313638;
