@@ -4,8 +4,8 @@ import {Container, Card ,Button} from 'react-bootstrap'
 
 const Projects = ({project}) => {
     return (
-        <Container>
-        <Card className='crd my-3 mx-1' >
+        <Container className='crdcontainer'>
+        <Card className='crd' >
             <a href={`/project/${project._id}`}>
                 <Card.Img className='project_image' src={project.image} variant='top'/>
             </a>

@@ -7,7 +7,8 @@ const projects = [
         'This project was created using react.',
       tool_1: 'React',
       tool_2: 'React-Scroll',
-      tool_3: 'null',
+      tool_3: 'React-Bootstrap',
+      
       link:'https://ranjit-kalita.netlify.app/',
     },
     {
