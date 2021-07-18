@@ -2,9 +2,9 @@ const projects = [
     {
       _id: '1',
       name: 'Portfolio Website',
-      image: '/images/portfolio_project1.jpg',
+      image: '/images/portfolio_project2.jpg',
       description:
-        'This project was created using react.',
+        'This project was created using react.This is my personal portfolio',
       tool_1: 'React',
       tool_2: 'React-Scroll',
       tool_3: 'React-Bootstrap',

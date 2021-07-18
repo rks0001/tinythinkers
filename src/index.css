@@ -37,7 +37,6 @@ a:focus {
 /* -------NAVBAR(HEADER)------- */
 @media screen and (min-width: 601px) {
   .navbaar {
-    background-color: #f5f7f8;
     padding: 20px 20px 20px 20px;
   }
 }
@@ -83,9 +82,9 @@ a:focus {
   }
   /* -------(S1)INTRO TEXT------- */
   .intro {
-    font-size: 23px;
+    font-size: 24px;
     letter-spacing: -1px;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
@@ -102,7 +101,7 @@ a:focus {
   .intro {
     font-size: 21px;
     letter-spacing: -1px;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
