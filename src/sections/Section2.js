@@ -1,43 +1,28 @@
 import React from 'react'
-import {Container,Row, Col ,Card} from 'react-bootstrap'
-import {FaHtml5,FaCss3Alt,FaReact,FaNode,FaGithub,FaPython} from 'react-icons/fa'
-import {SiJavascript,SiJquery,SiMongodb,SiRedux,SiAdobexd} from 'react-icons/si'
-import {DiGitBranch} from 'react-icons/di'
+import {Container, Row, Col,Button} from 'react-bootstrap'
+import {HiDocumentDownload} from 'react-icons/hi'
+import {FaGithub} from 'react-icons/fa'
 
 const Section2 = () => {
     return (
-        <section>
-            <Container className="sctn_two">
-            <h1 className="exptwo"> Take a look at my skills</h1>
-            <p className="desp">These are my skills and this contains all the technologies and programming<br/>
-            languages that I have learnt until now.</p>
+        <section className="sctn_two">
+            <Container>
+                <Row>
+                    <Col>
+                        <img className="aboutimage" src="images/dev.svg" alt="programming" width="400" height="400"/>
+                    </Col>
+                    <Col>
+                    <div className="aboutcontainer">
+                        <h4 className="about1">About Me</h4>
+                        <h4 className="about2">My name is Ranjit Kalita, I'm 20 years old, I am a CSE Undergrad <br/>in Tezpur University. I like to use various technologies to build <br/>exciting projects.</h4>
+                        <h4 className="about3">I've started Web Development in 2020 and since then I've learned <br/>a lot of new things and acquired a decent amount of skills and <br/>I am still learning.</h4>
+                        <h4 className="about3">Currently I am trying to learn how to use Docker.</h4>
+                        <Button className="githubbutton" variant="outline-dark" size="sm"  href="https://github.com/rks0001" target="_blank "><FaGithub className="mx-2" />GitHub</Button>
+                        <Button className="resumebutton" variant="outline-dark" size="sm"  href="https://drive.google.com/file/d/1r5nKbQiYIyMk98lKlZaMc5vVCSzvyF77/view?usp=sharing" target="_blank "><HiDocumentDownload className="mx-2"/>Resume</Button>
 
-            <Row>
-                <Col>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><FaHtml5 size={32}  color="#020061 " /></span>HTML</Card> </Row>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><FaCss3Alt size={32}  color="#020061" /></span>CSS</Card> </Row>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><SiJavascript size={32}  color="#020061" /></span>Javascript</Card> </Row>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><SiJquery size={32}  color="#020061" /></span>jQuery</Card> </Row>
+                    </div>
+                    </Col>
                     
-                </Col>
-                <Col>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><FaReact size={32}  color="#020061 " /></span>React</Card> </Row>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><FaNode size={32}  color="#020061" /></span>Node JS</Card> </Row>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><SiMongodb size={32}  color="#020061" /></span>Mongo DB</Card> </Row>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><SiRedux size={32}  color="#020061" /></span>Redux</Card> </Row>
-                    
-                </Col>
-                <Col>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><DiGitBranch size={32}  color="#020061 " /></span>Git</Card> </Row>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><FaGithub size={32}  color="#020061" /></span>Github</Card> </Row>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><SiAdobexd size={32}  color="#020061" /></span>Adobe Xd</Card> </Row>
-                    <Row className="py-2 px-3 anm"><Card body className="bdsty"><span className="bdstyy"><FaPython size={32}  color="#020061" /></span>Python</Card> </Row>
-                    
-                </Col>
-                
-                
-
-                
             </Row>
             </Container>
         </section>

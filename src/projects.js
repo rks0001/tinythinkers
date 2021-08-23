@@ -4,12 +4,12 @@ const projects = [
       name: 'Portfolio Website',
       image: '/images/portfolio_project2.jpg',
       description:
-        'This project was created using react.This is my personal portfolio',
+        'This project was created using react. This is my personal portfolio',
       tool_1: 'React',
-      tool_2: 'React-Scroll',
-      tool_3: 'React-Bootstrap',
+      tool_2: 'React-Bootstrap',
+      tool_3: 'null',
       
-      link:'https://ranjit-kalita.netlify.app/',
+      link:'https://ranjitkalita.netlify.app/',
     },
     {
       _id: '2',
@@ -18,18 +18,18 @@ const projects = [
       description:
         'Description',
         tool_1: 'React',
-        tool_2: 'React-Scroll',
+        tool_2: 'Firebase',
         tool_3: 'null',
     },
     {
       _id: '3',
-      name: 'Project-Name',
+      name: 'E-Commerce Website',
       image: '/images/project.png',
       description:
-        'Description',
+        'The TeaShirt Company',
         tool_1: 'React',
-        tool_2: 'React-Scroll',
-        tool_3: 'null',
+        tool_2: 'Nodejs',
+        tool_3: 'MongoDB',
     },
     {
       _id: '4',
@@ -38,8 +38,8 @@ const projects = [
       description:
         'Description',
         tool_1: 'React',
-        tool_2: 'React-Scroll',
-        tool_3: 'null',
+        tool_2: 'Nodejs',
+        tool_3: 'MongoDB',
       
     },
     {

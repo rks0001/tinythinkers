@@ -1,34 +1,41 @@
 import React from 'react'
-import {Container } from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Section1 from './sections/Section1'
 import Section2 from './sections/Section2'
 import Section3 from './sections/Section3'
 import Section4 from './sections/Section4'
+import Section5 from './sections/Section5'
+
 const App = () => {
   return (
     <>
       
       <main>
-          <Container>
-            <div id="home" >
-            <Header/><Section1/>
+            
+          <div id="home">
+              <Header/>
             </div>
 
-            <div id="skills">
+            <Section1/>
+
+            <div id="about">
               <Section2/>
             </div>
 
-            <div id="projects" >
+            <div id="skills" >
               <Section3/>
             </div>
 
 
-            <div id="about" >
+            <div id="projects" >
               <Section4/>
             </div>
-          </Container>
+
+            <div id="contact" >
+              <Section5/>
+            </div>
+          
       </main>
       <Footer/>
     </>
