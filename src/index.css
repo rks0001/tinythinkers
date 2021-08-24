@@ -39,7 +39,7 @@ footer {
 @media screen and (min-width: 601px) {
   .navbaar {
     padding: 12px 20px 12px 20px;
-    background-color: #202024;
+    background-color: #1c1c1f;
     z-index: 2;
   }
 }
@@ -64,6 +64,7 @@ footer {
   font-weight: 500;
   padding: 0 16px 0 16px;
 }
+
 .navlnk:hover {
   color: #fffcfc;
   font-size: 14px;
@@ -101,6 +102,25 @@ footer {
     font-weight: 700;
     font-size: 32px;
   }
+
+  .nameintro:hover {
+    transition: ease-in-out 0.8s;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-color: #6355d5;
+    background-image: linear-gradient(
+      135deg,
+      #6355d5 3%,
+      #5429cf 40%,
+      #491ad9 70%
+    );
+  }
   .contactbutton {
     background-color: #5429cf;
     border: solid;
@@ -110,11 +130,13 @@ footer {
     text-align: center;
     margin-top: 10px;
     color: #fffcfc;
+    transition: ease-in-out 0.4s;
   }
   .contactbutton:hover {
-    background-color: #5429cf;
+    background-color: #5d39cb;
     border: solid;
-    border-color: #5429cf;
+    border-color: #5d39cb;
+    transition-delay: 0.1s;
     color: #fffcfc;
   }
 }
@@ -129,7 +151,7 @@ footer {
 
 @media screen and (min-width: 601px) {
   .sctn_two {
-    background: #202024;
+    background: #1c1c1f;
     min-height: 90vh;
   }
 
@@ -137,14 +159,19 @@ footer {
     padding-left: 20px;
     padding-top: 110px;
   }
-  .aboutimage {
-  }
+
   .about1 {
-    color: #fffcfc;
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 16px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-color: #6357d9;
+    background-image: linear-gradient(135deg, #6357d9 6%, #532dcd 32%);
   }
+
   .about2 {
     color: #fffcfc;
     font-size: 13px;
@@ -170,6 +197,7 @@ footer {
     text-align: center;
     margin-top: 10px;
     color: #fffcfc;
+    transition: ease-in-out 0.3s;
   }
   .resumebutton {
     background-color: #5429cf;
@@ -181,12 +209,14 @@ footer {
     text-align: center;
     margin-top: 10px;
     color: #fffcfc;
+    transition: ease-in-out 0.3s;
   }
 
   .githubbutton:hover {
-    background-color: #5429cf;
+    background-color: #5d39cb;
     border: solid;
-    border-color: #5429cf;
+    border-color: #5d39cb;
+    transition-delay: 0.1s;
     font-size: 16px;
     font-weight: 400;
     padding: 10px 20px 10px 20px;
@@ -196,9 +226,10 @@ footer {
     color: #fffcfc;
   }
   .resumebutton:hover {
-    background-color: #5429cf;
+    background-color: #5d39cb;
     border: solid;
-    border-color: #5429cf;
+    border-color: #5d39cb;
+    transition-delay: 0.1s;
     font-size: 16px;
     font-weight: 400;
     padding: 10px 20px 10px 20px;
@@ -220,11 +251,22 @@ footer {
   }
 
   .skill1 {
-    color: #fffcfc;
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 16px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-color: #6355d5;
+    background-image: linear-gradient(
+      135deg,
+      #6355d5 3%,
+      #5429cf 40%,
+      #491ad9 70%
+    );
   }
+
   .skill2 {
     color: #fffcfc;
     font-size: 14px;
@@ -237,18 +279,18 @@ footer {
 
   .skillcol {
     padding: 10px;
-    background-color: #202024;
+    background-color: #1c1c1f;
     margin: 16px 4px 16px 4px;
     text-align: center;
     border: solid;
     border-bottom-width: 6px;
     border-radius: 6px;
-    transition: 0s;
-    border-color: #202024;
+    transition: 0.2s;
+    border-color: #1c1c1f;
   }
   .skillcol:hover {
     border-bottom-color: #5429cf;
-    transition-delay: 0.01s;
+    transition-delay: 0.02s;
   }
 
   .skillicon {
@@ -260,6 +302,7 @@ footer {
   [aria-label] {
     position: relative;
     text-decoration: none;
+    transition: 0.3s;
   }
 
   [aria-label]::before {
@@ -271,7 +314,8 @@ footer {
 
   [aria-label]:hover::before {
     content: attr(aria-label);
-    background-color: #202024;
+    background-color: #1c1c1f;
+    transition-delay: 0.1s;
 
     border-radius: 4px;
     text-shadow: 0 0 5px #000;
@@ -327,13 +371,13 @@ footer {
 
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid #202024;
+    border-top: 10px solid #1c1c1f;
   }
 }
 /* -------SECTION 4------- */
 @media screen and (min-width: 601px) {
   .sctn_four {
-    background: #202024;
+    background: #1c1c1f;
     min-height: 100vh;
     padding-bottom: 100px;
   }
@@ -344,10 +388,15 @@ footer {
   }
 
   .project1 {
-    color: #fffcfc;
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 16px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-color: #6357d9;
+    background-image: linear-gradient(135deg, #6357d9 6%, #532dcd 32%);
   }
   .project2 {
     color: #fffcfc;
@@ -378,8 +427,16 @@ footer {
     border-color: #121214;
     margin: 10px 10px 10px 10px;
     min-height: 220px;
+    min-width: 320px;
     border-radius: 6px;
+    border-width: 4px;
     margin: 16px 2px 16px 2px;
+    transition: 0.2s;
+  }
+
+  .crd:hover {
+    border-bottom-color: #5429cf;
+    transition-delay: 0.1s;
   }
 
   .probtnn {
@@ -388,15 +445,19 @@ footer {
     font-size: 14px;
     text-align: center;
     padding: 4px 12px 4px 12px;
-    margin: 4px 20px 4px 0;
+    margin: 4px 20px 22px 0;
+    transition: ease-in-out 0.3s;
   }
   .probtnn:hover {
-    background-color: #5429cf;
+    background-color: #5d39cb;
+    transition-delay: 0.1s;
     color: #fffcfc;
   }
 
   .probtnncontainer {
     text-align: left;
+    position: absolute;
+    bottom: 0;
   }
 
   /* -------change the side spaces <---[CARDS]----> */
@@ -410,21 +471,23 @@ footer {
   .project_title {
     font-size: 16px;
     font-weight: 500;
+    margin-top: 8px;
   }
 
   .project_text {
     font-size: 12px;
     font-weight: 300;
+    margin-top: 12px;
   }
   .project_tool {
-    background-color: #202024;
+    background-color: #1c1c1f;
     display: inline-block;
     border: solid;
-    border-color: #202024;
+    border-color: #1c1c1f;
     border-radius: 10px;
     padding: 2px 6px 2px 6px;
     font-size: 12px;
-    margin: 4px 4px 4px 0;
+    margin: 10px 4px 10px 0;
   }
 }
 
@@ -432,5 +495,20 @@ footer {
   .sctn_five {
     background: #121214;
     min-height: 80vh;
+  }
+
+  .contactcontainer {
+    padding-top: 80px;
+    text-align: center;
+  }
+
+  .contact1 {
+    color: #fffcfc;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  .contactform {
   }
 }

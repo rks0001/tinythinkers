@@ -14,19 +14,19 @@ const Footer = () => {
                     <Col></Col>
                     <Col></Col>
                     <Col >
-                        <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="Twitter"><div><FaTwitter className="skillicon" color="#fff" fontSize="30px"  /></div></Row>
+                        <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="Twitter"><a href="https://twitter.com/ranjitkalita5o5" target="_blank" rel="noreferrer"><FaTwitter className="skillicon" color="#fff" fontSize="30px"  /></a></Row>
                         
                     </Col>
                     <Col>
-                        <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="LinkedIn"><div><FaLinkedinIn className="skillicon" color="#fff" fontSize="30px"  /></div></Row>
+                        <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="LinkedIn"><a href="https://www.linkedin.com/in/ranjitkalita/" target="_blank" rel="noreferrer"><FaLinkedinIn className="skillicon" color="#fff" fontSize="30px"  /></a></Row>
                     </Col>
                     
                     <Col >
-                        <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="LeetCode"><div><SiLeetcode className="skillicon" color="#fff" fontSize="30px"  /></div></Row>
+                        <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="LeetCode"><a href="https://github.com/rks0001" target="_blank" rel="noreferrer"><SiLeetcode className="skillicon" color="#fff" fontSize="30px"  /></a></Row>
                     </Col>
 
                     <Col>
-                      <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="GitHub"><div><FaGithub className="skillicon" color="#fff" fontSize="30px"  /></div></Row>
+                      <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="GitHub"><a href="https://github.com/rks0001" target="_blank" rel="noreferrer"><FaGithub className="skillicon" color="#fff" fontSize="30px"  /></a></Row>
                     </Col>
 
                     <Col></Col>
