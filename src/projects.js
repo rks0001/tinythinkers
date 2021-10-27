@@ -16,7 +16,7 @@ const projects = [
       name: 'Amazon-clone ',
       image: '/images/project.png',
       description:
-        'Description',
+        'This is a clone of Amazon website',
         tool_1: 'React',
         tool_2: 'Firebase',
         tool_3: 'null',
@@ -37,9 +37,9 @@ const projects = [
       image: '/images/project.png',
       description:
         'Description',
-        tool_1: 'React',
-        tool_2: 'Nodejs',
-        tool_3: 'MongoDB',
+        tool_1: 'null',
+        tool_2: 'null',
+        tool_3: 'null',
       
     },
     {
@@ -48,8 +48,8 @@ const projects = [
       image: '/images/project.png',
       description:
         'Description',
-        tool_1: 'React',
-        tool_2: 'React-Scroll',
+        tool_1: 'null',
+        tool_2: 'null',
         tool_3: 'null',
     },
     {
@@ -58,8 +58,8 @@ const projects = [
       image: '/images/project.png',
       description:
         'Description',
-        tool_1: 'React',
-        tool_2: 'React-Scroll',
+        tool_1: 'null',
+        tool_2: 'null',
         tool_3: 'null',
     },
   ]
