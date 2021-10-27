@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react"
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Section1 from './sections/Section1'
 import Section2 from './sections/Section2'
 import Section3 from './sections/Section3'
 import Section4 from './sections/Section4'
-import Section5 from './sections/Section5'
+import Contact2 from "./components/Contact2"
 
-const App = () => {
+
+function App() {
   return (
     <>
       
@@ -33,14 +34,13 @@ const App = () => {
             </div>
 
             <div id="contact" >
-              <Section5/>
+              <Contact2/>
             </div>
           
       </main>
       <Footer/>
     </>
-  )
+  );
 }
 
-export default App
-
+export default App;
