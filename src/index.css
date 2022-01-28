@@ -71,6 +71,34 @@ footer {
   font-weight: 500;
 }
 
+/* -------NAVBAR(small)------- */
+@media screen and (max-width: 600px) {
+  .navbaar {
+    padding: 10px 12px;
+    background-color: #1c1c1f;
+    z-index: 2;
+  }
+
+  .logo {
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #fffcfc;
+    font-weight: 600;
+  }
+
+  .navlnk {
+    color: #fffcfc;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 16px 0 16px;
+  }
+
+  .navlnk:hover {
+    color: #fffcfc;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
 /* -------SECTION 1 (S1)------- */
 @media screen and (min-width: 601px) {
   .sctn_one {
@@ -141,9 +169,55 @@ footer {
   }
 }
 
+/* -------SECTION 1 (Small)------- */
 @media screen and (max-width: 600px) {
   .sctn_one {
     text-align: left;
+    padding: 60px 40px;
+    background-color: #121214;
+    min-height: 60vh;
+  }
+
+  .introcontainer {
+    padding-left: 0;
+    padding-top: 90px;
+  }
+  .introimage {
+    display: none;
+  }
+  .intro1 {
+    color: #fffcfc;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .intro2 {
+    color: #fffcfc;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .nameintro {
+    color: #fffcfc;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .contactbutton {
+    background-color: #5429cf;
+    border: solid;
+    border-color: #5429cf;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fffcfc;
+    transition: ease-in-out 0.4s;
+  }
+  .contactbutton:hover {
+    background-color: #5d39cb;
+    border: solid;
+    border-color: #5d39cb;
+    transition-delay: 0.1s;
+    color: #fffcfc;
   }
 }
 
@@ -158,6 +232,101 @@ footer {
   .aboutcontainer {
     padding-left: 20px;
     padding-top: 110px;
+  }
+
+  .about1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-color: #6357d9;
+    background-image: linear-gradient(135deg, #6357d9 6%, #532dcd 32%);
+  }
+
+  .about2 {
+    color: #fffcfc;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .about3 {
+    color: #fffcfc;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 16px;
+  }
+
+  .githubbutton {
+    background-color: #5429cf;
+    border: solid;
+    border-color: #5429cf;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    margin-right: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fffcfc;
+    transition: ease-in-out 0.3s;
+  }
+  .resumebutton {
+    background-color: #5429cf;
+    border: solid;
+    border-color: #5429cf;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fffcfc;
+    transition: ease-in-out 0.3s;
+  }
+
+  .githubbutton:hover {
+    background-color: #5d39cb;
+    border: solid;
+    border-color: #5d39cb;
+    transition-delay: 0.1s;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    margin-right: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fffcfc;
+  }
+  .resumebutton:hover {
+    background-color: #5d39cb;
+    border: solid;
+    border-color: #5d39cb;
+    transition-delay: 0.1s;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fffcfc;
+  }
+}
+
+/* -------SECTION 2(small)------- */
+
+@media screen and (max-width: 600px) {
+  .sctn_two {
+    background: #1c1c1f;
+    min-height: 90vh;
+  }
+
+  .aboutcontainer {
+    padding: 30px;
+  }
+
+  .aboutimage {
+    display: none;
   }
 
   .about1 {
@@ -509,7 +678,8 @@ footer {
     margin-bottom: 16px;
   }
 
-  .contactform {
+  .conimgwork {
+    text-align: center;
   }
 }
 
@@ -579,4 +749,10 @@ textarea:focus {
   color: rgb(170, 170, 170);
   text-align: center;
   font-size: 18px;
+}
+
+.workgif {
+  height: 200px;
+  width: 200px;
+  justify-content: center;
 }

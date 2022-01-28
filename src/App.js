@@ -1,16 +1,27 @@
 import React from "react"
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from './components/Header/Header'
+import { BrowserRouter, Switch as Routes, Route } from "react-router-dom";
+import Footer from './components/Footer/Footer'
 import Section1 from './sections/Section1'
 import Section2 from './sections/Section2'
 import Section3 from './sections/Section3'
 import Section4 from './sections/Section4'
-import Contact2 from "./components/Contact2"
+import Contact2 from "./components/Contact/Contact2"
+import Certifcations from './sections/Certifications/Certifications'
+
 
 
 function App() {
   return (
+
     <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/certifications" element={<Certifcations />}>
+      
+        </Route>
+      </Routes>
+    </BrowserRouter>
       
       <main>
             

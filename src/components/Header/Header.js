@@ -1,6 +1,8 @@
 import React from 'react'
 import {Navbar, Nav} from 'react-bootstrap'
 import {Link} from 'react-scroll'
+import { BiLinkExternal } from 'react-icons/bi';
+
 
 const Header = () => {
   return (
@@ -15,7 +17,7 @@ const Header = () => {
                   <Nav.Link  ><Link  to="skills" spy={true} smooth={false}><span className="navlnk">Skills</span></Link></Nav.Link>
                   <Nav.Link ><Link  to="projects" spy={true} smooth={false}><span className="navlnk">Projects</span></Link></Nav.Link>
                   <Nav.Link ><Link  to="contact" spy={true} smooth={false}><span className="navlnk">Contact Me</span></Link></Nav.Link>
-
+                  <Nav.Link href="/certifications" ><span className="navlnk">Certifications <BiLinkExternal/> </span></Nav.Link>
                 </Nav> 
   
               </Navbar.Collapse>

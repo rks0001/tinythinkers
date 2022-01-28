@@ -9,6 +9,10 @@ const Contact2 = () => {
             <h1 className="project1"> Contact Me</h1>
             </div>
             <h4 className="my-5 contacttxt"> Updating the Contact Form <br/> ...</h4>
+            <div className="conimgwork">
+            <img className="workgif" src="https://media.giphy.com/media/3ohjUWTPCrfrhFPomQ/giphy.gif" alt="description of gif"  /> 
+            </div>
+            
             
         </section>
     )
