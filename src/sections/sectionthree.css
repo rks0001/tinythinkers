@@ -1,0 +1,277 @@
+/* -------SECTION 3------- */
+@media screen and (min-width: 601px) {
+  .sctn_three {
+    background: #121214;
+    min-height: 100vh;
+  }
+  .skillcontainer {
+    padding-top: 120px;
+    text-align: left;
+  }
+
+  .skill1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-color: #6355d5;
+    background-image: linear-gradient(
+      135deg,
+      #6355d5 3%,
+      #5429cf 40%,
+      #491ad9 70%
+    );
+  }
+
+  .skill2 {
+    color: #fffcfc;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .skillrightcol {
+    padding-top: 100px;
+  }
+
+  .skillcol {
+    padding: 10px;
+    background-color: #1c1c1f;
+    margin: 16px 4px 16px 4px;
+    text-align: center;
+    border: solid;
+    border-bottom-width: 6px;
+    border-radius: 6px;
+    transition: 0.2s;
+    border-color: #1c1c1f;
+  }
+  .skillcol:hover {
+    border-bottom-color: #5429cf;
+    transition-delay: 0.02s;
+  }
+
+  .skillicon {
+    margin: 10px;
+  }
+
+  /* CSS TOOLTIPS */
+
+  [aria-label] {
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  [aria-label]::before {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    /* top: -999; */
+  }
+
+  [aria-label]:hover::before {
+    content: attr(aria-label);
+    background-color: #1c1c1f;
+    transition-delay: 0.1s;
+
+    border-radius: 4px;
+    text-shadow: 0 0 5px #000;
+    white-space: nowrap;
+    color: #fffcfc;
+    font-size: 12px;
+
+    opacity: 1;
+    pointer-events: all;
+    padding: 6px 12px;
+    overflow: hidden;
+    top: unset;
+  }
+
+  [aria-label]::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    position: absolute;
+  }
+
+  [aria-label]:hover::after {
+    z-index: 100;
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  /* Fixes tooltip bug running out of other buttons*/
+
+  [data-tooltip="right"]:hover {
+    position: relative;
+    z-index: 1;
+  }
+
+  [aria-label]:is([data-tooltip="top"])::before {
+    bottom: 100%;
+    left: 0%;
+    margin-bottom: 16px;
+  }
+
+  /* Arrow */
+
+  [aria-label]:is([data-tooltip="top"])::after {
+    bottom: 100%;
+    left: 10%;
+    margin-bottom: 8px;
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #1c1c1f;
+  }
+}
+
+/* ------------SMALL SCREENS---------- */
+
+@media screen and (min-width: 601px) {
+  .sctn_three_small {
+    background: #121214;
+    min-height: 100vh;
+  }
+
+  .sctn_three {
+    display: none;
+  }
+
+  .skillcontainer {
+    padding-top: 120px;
+    text-align: left;
+  }
+
+  .skill1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-color: #6355d5;
+    background-image: linear-gradient(
+      135deg,
+      #6355d5 3%,
+      #5429cf 40%,
+      #491ad9 70%
+    );
+  }
+
+  .skill2 {
+    color: #fffcfc;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .skillrightcol {
+    padding-top: 100px;
+  }
+
+  .skillcol {
+    padding: 10px;
+    background-color: #1c1c1f;
+    margin: 16px 4px 16px 4px;
+    text-align: center;
+    border: solid;
+    border-bottom-width: 6px;
+    border-radius: 6px;
+    transition: 0.2s;
+    border-color: #1c1c1f;
+  }
+  .skillcol:hover {
+    border-bottom-color: #5429cf;
+    transition-delay: 0.02s;
+  }
+
+  .skillicon {
+    margin: 10px;
+  }
+
+  /* CSS TOOLTIPS */
+
+  [aria-label] {
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  [aria-label]::before {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    /* top: -999; */
+  }
+
+  [aria-label]:hover::before {
+    content: attr(aria-label);
+    background-color: #1c1c1f;
+    transition-delay: 0.1s;
+
+    border-radius: 4px;
+    text-shadow: 0 0 5px #000;
+    white-space: nowrap;
+    color: #fffcfc;
+    font-size: 12px;
+
+    opacity: 1;
+    pointer-events: all;
+    padding: 6px 12px;
+    overflow: hidden;
+    top: unset;
+  }
+
+  [aria-label]::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    position: absolute;
+  }
+
+  [aria-label]:hover::after {
+    z-index: 100;
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  /* Fixes tooltip bug running out of other buttons*/
+
+  [data-tooltip="right"]:hover {
+    position: relative;
+    z-index: 1;
+  }
+
+  [aria-label]:is([data-tooltip="top"])::before {
+    bottom: 100%;
+    left: 0%;
+    margin-bottom: 16px;
+  }
+
+  /* Arrow */
+
+  [aria-label]:is([data-tooltip="top"])::after {
+    bottom: 100%;
+    left: 10%;
+    margin-bottom: 8px;
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #1c1c1f;
+  }
+}

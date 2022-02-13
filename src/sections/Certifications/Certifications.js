@@ -20,10 +20,21 @@ const Certifications = () => {
                     <Col>
                     <Certicard
             img={cert1}
-            title="Prof. Sarat Saharia"
-            text1="Professor in charge"
-            text2="Training &amp; Placement Cell,"
-            text3="School of Engineering"
+            title="React + Redux Course"
+            text1="SoloLearn"
+            link=""
+            
+            
+            />
+                    </Col>
+
+                    <Col>
+                    <Certicard
+            img={cert1}
+            title="React + Redux Course"
+            text1="Coursera"
+            link=""
+            
             
             />
                     </Col>
@@ -32,9 +43,32 @@ const Certifications = () => {
                     <Certicard
             img={cert1}
             title="Prof. Sarat Saharia"
-            text1="Professor in charge"
-            text2="Training &amp; Placement Cell,"
-            text3="School of Engineering"
+            text1="Coursera"
+            link=""
+            
+            
+            />
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col>
+                    <Certicard
+            img={cert1}
+            title="React + Redux Course"
+            text1="SoloLearn"
+            link=""
+            
+            
+            />
+                    </Col>
+
+                    <Col>
+                    <Certicard
+            img={cert1}
+            title="React + Redux Course"
+            text1="Coursera"
+            link=""
             
             />
                     </Col>
@@ -43,9 +77,9 @@ const Certifications = () => {
                     <Certicard
             img={cert1}
             title="Prof. Sarat Saharia"
-            text1="Professor in charge"
-            text2="Training &amp; Placement Cell,"
-            text3="School of Engineering"
+            text1="Coursera"
+            link=""
+            
             
             />
                     </Col>

@@ -1,0 +1,128 @@
+/* -------SECTION 1 (S1)------- */
+@media screen and (min-width: 601px) {
+  .sctn_one {
+    text-align: left;
+    padding: 60px 40px 60px 40px;
+    background-color: #121214;
+    min-height: 110vh;
+  }
+
+  .sctn_one_small {
+    display: none;
+  }
+
+  .introcontainer {
+    padding-left: 80px;
+    padding-top: 90px;
+  }
+  .introimage {
+    margin-top: -60px;
+  }
+  .intro1 {
+    color: #fffcfc;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .intro2 {
+    color: #fffcfc;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .nameintro {
+    color: #fffcfc;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .nameintro:hover {
+    transition: ease-in-out 0.8s;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-color: #6355d5;
+    background-image: linear-gradient(
+      135deg,
+      #6355d5 3%,
+      #5429cf 40%,
+      #491ad9 70%
+    );
+  }
+  .contactbutton {
+    background-color: #5429cf;
+    border: solid;
+    border-color: #5429cf;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fffcfc;
+    transition: ease-in-out 0.4s;
+  }
+  .contactbutton:hover {
+    background-color: #5d39cb;
+    border: solid;
+    border-color: #5d39cb;
+    transition-delay: 0.1s;
+    color: #fffcfc;
+  }
+}
+
+/* -------SECTION 1 (Small)------- */
+@media screen and (max-width: 600px) {
+  .sctn_one_small {
+    text-align: left;
+    padding: 40px;
+    background-color: #121214;
+    min-height: 70vh;
+  }
+
+  .sctn_one {
+    display: none;
+  }
+
+  .introcontainer {
+    padding: 90px 10px;
+  }
+  .introimage {
+    display: none;
+  }
+  .intro1 {
+    color: #fffcfc;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .intro2 {
+    color: #fffcfc;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .nameintro {
+    color: #fffcfc;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .contactbutton {
+    background-color: #5429cf;
+    border: solid;
+    border-color: #5429cf;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fffcfc;
+    transition: ease-in-out 0.4s;
+  }
+  .contactbutton:hover {
+    background-color: #5d39cb;
+    border: solid;
+    border-color: #5d39cb;
+    transition-delay: 0.1s;
+    color: #fffcfc;
+  }
+}
