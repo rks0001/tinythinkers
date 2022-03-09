@@ -4,6 +4,10 @@
     background: #121214;
     min-height: 100vh;
   }
+
+  .sctn_three_small {
+    display: none;
+  }
   .skillcontainer {
     padding-top: 120px;
     text-align: left;
@@ -136,10 +140,11 @@
 
 /* ------------SMALL SCREENS---------- */
 
-@media screen and (min-width: 601px) {
+@media screen and (max-width: 600px) {
   .sctn_three_small {
     background: #121214;
     min-height: 100vh;
+    padding-bottom: 40px;
   }
 
   .sctn_three {
@@ -147,8 +152,12 @@
   }
 
   .skillcontainer {
-    padding-top: 120px;
+    padding: 40px 60px;
     text-align: left;
+  }
+
+  .skillconicon {
+    padding: 0 40px;
   }
 
   .skill1 {

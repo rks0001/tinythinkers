@@ -1,70 +1,36 @@
-import React, { useState, useEffect } from "react";
-import { db } from "../firebase"
+import React from 'react'
+import './contact2.css'
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-  const [loader, setLoader] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoader(true);
-
-    db.collection("contacts")
-      .add({
-        name: name,
-        email: email,
-        message: message,
-      })
-      .then(() => {
-        setLoader(false);
-        alert("Your message has been submitted👍");
-      })
-      .catch((error) => {
-        alert(error.message);
-        setLoader(false);
-      });
-
-    setName("");
-    setEmail("");
-    setMessage("");
-  };
-
   return (
-    <form className="form" onSubmit={handleSubmit}>
-      <h1>Contact Us 🤳</h1>
+    <div className='contactcon'>
+      
+      <h3 className='contitle'>Contact Me</h3>
+      <div className="con2">
 
-      <label>Name</label>
-      <input
-        placeholder="Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
+    <form className="frm" action="/action_page.php">
+    <label className='lab'>First Name</label>
+    <input className='in' type="text" id="fname" name="firstname" placeholder="Your first name.." />
+    <label className='lab'>Last Name</label>
+    <input className='in' type="text" id="lname" name="lastname" placeholder="Your last name.." />
 
-      <label>Email</label>
-      <input
-        placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
 
-      <label>Message</label>
-      <textarea
-        placeholder="Message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
+    <label className='lab'>Email</label>
+    <input className='in' type="email" id="email" name="email" placeholder="Your email" />
 
-      <button
-        type="submit"
-        style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
-      >
-        Submit
-      </button>
+
+    <label className='lab'>Subject</label>
+    <textarea className="txtarea" id="subject" name="subject" placeholder="Write something.."></textarea>
+    <input className='insub' type="submit" value="Submit" />
     </form>
-  );
-};
+    </div>
+    </div>
 
-export default Contact;
+      
+       
+    
+    
+  )
+}
+
+export default Contact

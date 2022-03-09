@@ -6,6 +6,10 @@
     min-height: 90vh;
   }
 
+  .sctn_two_small {
+    display: none;
+  }
+
   .aboutcontainer {
     padding-left: 20px;
     padding-top: 110px;
@@ -99,7 +103,7 @@
 
   .sctn_two_small {
     background: #1c1c1f;
-    min-height: 90vh;
+    min-height: 64vh;
   }
 
   .aboutcontainer {

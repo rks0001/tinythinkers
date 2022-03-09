@@ -2,6 +2,7 @@ import React from 'react'
 import {Container, Card ,Button} from 'react-bootstrap'
 import {BsLink45Deg} from 'react-icons/bs'
 import {FiGithub} from 'react-icons/fi'
+import './projects.css'
 
 const Projects = ({project}) => {
     return (

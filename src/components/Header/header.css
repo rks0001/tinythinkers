@@ -1,0 +1,65 @@
+/* -------NAVBAR(HEADER)------- */
+@media screen and (min-width: 601px) {
+  .navbaar {
+    padding: 12px 20px 12px 20px;
+    background-color: #1c1c1f;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbaar {
+    padding: 20px 5px 20px 5px;
+  }
+}
+
+.logo {
+  font-size: 24px;
+  letter-spacing: -1px;
+  color: #fffcfc;
+  padding-left: 140px;
+  font-weight: 600;
+}
+
+.navlnk {
+  color: #fffcfc;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 16px 0 16px;
+}
+
+.navlnk:hover {
+  color: #fffcfc;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* -------NAVBAR(small)------- */
+@media screen and (max-width: 600px) {
+  .navbaar {
+    padding: 10px 12px;
+    background-color: #1c1c1f;
+    z-index: 2;
+  }
+
+  .logo {
+    font-size: 24px;
+    text-align: left;
+    letter-spacing: -1px;
+    color: #fffcfc;
+    font-weight: 600;
+  }
+
+  .navlnk {
+    color: #fffcfc;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 16px 0 16px;
+  }
+
+  .navlnk:hover {
+    color: #fffcfc;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

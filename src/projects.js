@@ -33,24 +33,28 @@ const projects = [
     },
     {
       _id: '4',
-      name: 'Project-Name',
+      name: 'Weather Forecast App',
       image: '/images/project.png',
       description:
-        'Description',
-        tool_1: 'null',
-        tool_2: 'null',
+        'Check Weather ',
+        tool_1: 'React',
+        tool_2: 'Open Weather API',
         tool_3: 'null',
+
+        link: 'https://checkweatherup.netlify.app/',
       
     },
     {
       _id: '5',
-      name: 'Project-Name',
+      name: 'Expense Tracker ',
       image: '/images/project.png',
       description:
-        'Description',
-        tool_1: 'null',
+        'Track your expenses with this app',
+        tool_1: 'React',
         tool_2: 'null',
         tool_3: 'null',
+
+       
     },
     {
       _id: '6',

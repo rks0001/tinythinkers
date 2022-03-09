@@ -30,190 +30,23 @@ section {
 }
 
 /* -------FOOTER------- */
-footer {
-  min-height: 30vh;
-  background-color: #5429cf;
-}
-
-/* -------NAVBAR(HEADER)------- */
 @media screen and (min-width: 601px) {
-  .navbaar {
-    padding: 12px 20px 12px 20px;
-    background-color: #1c1c1f;
-    z-index: 2;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .navbaar {
-    padding: 20px 5px 20px 5px;
-  }
-}
-
-.logo {
-  font-size: 24px;
-  letter-spacing: -1px;
-  color: #fffcfc;
-  padding-left: 140px;
-  font-weight: 600;
-}
-
-.navlnk {
-  color: #fffcfc;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 0 16px 0 16px;
-}
-
-.navlnk:hover {
-  color: #fffcfc;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-/* -------NAVBAR(small)------- */
-@media screen and (max-width: 600px) {
-  .navbaar {
-    padding: 10px 12px;
-    background-color: #1c1c1f;
-    z-index: 2;
-  }
-
-  .logo {
-    font-size: 24px;
-    letter-spacing: -1px;
-    color: #fffcfc;
-    font-weight: 600;
-  }
-
-  .navlnk {
-    color: #fffcfc;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0 16px 0 16px;
-  }
-
-  .navlnk:hover {
-    color: #fffcfc;
-    font-size: 14px;
-    font-weight: 500;
-  }
-}
-
-/* -------SECTION 4------- */
-@media screen and (min-width: 601px) {
-  .sctn_four {
-    background: #1c1c1f;
-    min-height: 100vh;
-    padding-bottom: 100px;
-  }
-
-  .projectcontainer {
-    padding-top: 80px;
-    text-align: center;
-  }
-
-  .project1 {
-    font-size: 28px;
-    font-weight: 500;
-    margin-bottom: 16px;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-size: cover;
-    background-color: #6357d9;
-    background-image: linear-gradient(135deg, #6357d9 6%, #532dcd 32%);
-  }
-  .project2 {
-    color: #fffcfc;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: normal;
-  }
-
-  .repo {
-    text-align: center;
-    margin-top: 20px;
-    color: #5429cf;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: none;
-    margin-top: 20px;
-  }
-  .repo:hover {
-    color: #5429cf;
-    text-decoration: underline;
-  }
-
-  /* -----------CARD COMPONENT----------- */
-  .crd {
-    background-color: #121214;
-    border: solid;
-    border-color: #121214;
-    margin: 10px 10px 10px 10px;
-    min-height: 220px;
-    min-width: 320px;
-    border-radius: 6px;
-    border-width: 4px;
-    margin: 16px 2px 16px 2px;
-    transition: 0.2s;
-  }
-
-  .crd:hover {
-    border-bottom-color: #5429cf;
-    transition-delay: 0.1s;
-  }
-
-  .probtnn {
+  .bigfoot {
+    min-height: 30vh;
     background-color: #5429cf;
-    color: #fffcfc;
-    font-size: 14px;
-    text-align: center;
-    padding: 4px 12px 4px 12px;
-    margin: 4px 20px 22px 0;
-    transition: ease-in-out 0.3s;
   }
-  .probtnn:hover {
-    background-color: #5d39cb;
-    transition-delay: 0.1s;
-    color: #fffcfc;
+  .smallfoot {
+    display: none;
   }
+}
 
-  .probtnncontainer {
-    text-align: left;
-    position: absolute;
-    bottom: 0;
+@media screen and (max-width: 601px) {
+  .smallfoot {
+    min-height: 20vh;
+    background-color: #5429cf;
   }
-
-  /* -------change the side spaces <---[CARDS]----> */
-  .project {
-    padding: 10px;
-  }
-  .crd_body {
-    color: #fffcfc;
-  }
-
-  .project_title {
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 8px;
-  }
-
-  .project_text {
-    font-size: 12px;
-    font-weight: 300;
-    margin-top: 12px;
-  }
-  .project_tool {
-    background-color: #1c1c1f;
-    display: inline-block;
-    border: solid;
-    border-color: #1c1c1f;
-    border-radius: 10px;
-    padding: 2px 6px 2px 6px;
-    font-size: 12px;
-    margin: 10px 4px 10px 0;
+  .bigfoot {
+    display: none;
   }
 }
 

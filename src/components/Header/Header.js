@@ -2,7 +2,7 @@ import React from 'react'
 import {Navbar, Nav} from 'react-bootstrap'
 import {Link} from 'react-scroll'
 import { BiLinkExternal } from 'react-icons/bi';
-
+import './header.css'
 
 const Header = () => {
   return (

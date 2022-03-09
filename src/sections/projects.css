@@ -1,0 +1,143 @@
+/* -----------CARD COMPONENT----------- */
+@media screen and (min-width: 601px) {
+  .crd {
+    background-color: #121214;
+    border: solid;
+    border-color: #121214;
+    margin: 10px 10px 10px 10px;
+    min-height: 220px;
+    min-width: 320px;
+    border-radius: 6px;
+    border-width: 4px;
+    margin: 16px 2px 16px 2px;
+    transition: 0.2s;
+  }
+
+  .crd:hover {
+    border-bottom-color: #5429cf;
+    transition-delay: 0.1s;
+  }
+
+  .probtnn {
+    background-color: #5429cf;
+    color: #fffcfc;
+    font-size: 14px;
+    text-align: center;
+    padding: 4px 12px 4px 12px;
+    margin: 4px 20px 22px 0;
+    transition: ease-in-out 0.3s;
+  }
+  .probtnn:hover {
+    background-color: #5d39cb;
+    transition-delay: 0.1s;
+    color: #fffcfc;
+  }
+
+  .probtnncontainer {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+  }
+
+  /* -------change the side spaces <---[CARDS]----> */
+  .project {
+    padding: 10px;
+  }
+  .crd_body {
+    color: #fffcfc;
+  }
+
+  .project_title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+
+  .project_text {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 12px;
+  }
+  .project_tool {
+    background-color: #1c1c1f;
+    display: inline-block;
+    border: solid;
+    border-color: #1c1c1f;
+    border-radius: 10px;
+    padding: 2px 6px 2px 6px;
+    font-size: 12px;
+    margin: 10px 4px 10px 0;
+  }
+}
+
+/* -----------CARD COMPONENT----------- */
+@media screen and (max-width: 600px) {
+  .crd {
+    background-color: #121214;
+    border: solid;
+    border-color: #121214;
+    margin: 10px 10px 10px 10px;
+    min-height: 220px;
+    min-width: 320px;
+    border-radius: 6px;
+    border-width: 4px;
+    margin: 16px 2px 16px 2px;
+    transition: 0.2s;
+  }
+
+  .crd:hover {
+    border-bottom-color: #5429cf;
+    transition-delay: 0.1s;
+  }
+
+  .probtnn {
+    background-color: #5429cf;
+    color: #fffcfc;
+    font-size: 14px;
+    text-align: center;
+    padding: 4px 12px 4px 12px;
+    margin: 4px 20px 22px 0;
+    transition: ease-in-out 0.3s;
+  }
+  .probtnn:hover {
+    background-color: #5d39cb;
+    transition-delay: 0.1s;
+    color: #fffcfc;
+  }
+
+  .probtnncontainer {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+  }
+
+  /* -------change the side spaces <---[CARDS]----> */
+  .project {
+    padding: 10px;
+  }
+  .crd_body {
+    color: #fffcfc;
+  }
+
+  .project_title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+
+  .project_text {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 12px;
+  }
+  .project_tool {
+    background-color: #1c1c1f;
+    display: inline-block;
+    border: solid;
+    border-color: #1c1c1f;
+    border-radius: 10px;
+    padding: 2px 6px 2px 6px;
+    font-size: 12px;
+    margin: 10px 4px 10px 0;
+  }
+}

@@ -12,7 +12,7 @@ import Section1 from './sections/Section1'
 import Section2 from './sections/Section2'
 import Section3 from './sections/Section3'
 import Section4 from './sections/Section4'
-import Contact2 from "./components/Contact/Contact2"
+import Contact from "./components/Contact/Contact"
 import Certifications from '../src/sections/Certifications/Certifications'
 
 
@@ -26,7 +26,6 @@ function App() {
       <Routes>
         <Route path="/certifications" element={<Certifications />} />
         
-       
       </Routes>
 
       </BrowserRouter>
@@ -52,7 +51,7 @@ function App() {
             </div>
 
             <div id="contact" >
-              <Contact2/>
+              <Contact/>
             </div>
           
     
