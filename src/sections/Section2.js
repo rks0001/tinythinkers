@@ -52,18 +52,26 @@ const Section2 = () => {
                     
             </Row>
 
-            <Row>
+            
+                <div className='btncon'>
+                <Row>
                 <Col>
-                <div className="btncon">
+                
 
-                <Button className="githubbutton" variant="outline-dark" size="sm"  href="https://github.com/rks0001" target="_blank "><FaGithub className="mx-2" />GitHub</Button>
-                <Button className="resumebutton" variant="outline-dark" size="sm"  href="https://drive.google.com/file/d/1r5nKbQiYIyMk98lKlZaMc5vVCSzvyF77/view?usp=sharing" target="_blank "><HiDocumentDownload className="mx-2"/>Resume</Button>
-                </div>
+                <Button className="githubbutton" variant="outline-dark" size="sm"  href="https://github.com/rks0001" target="_blank "><FaGithub className="mx-2" /><br/>GitHub</Button>
+                
+                
                
                 
                 </Col>
+                <Col>
+                <Button className="resumebutton" variant="outline-dark" size="sm"  href="https://drive.google.com/file/d/1r5nKbQiYIyMk98lKlZaMc5vVCSzvyF77/view?usp=sharing" target="_blank "><HiDocumentDownload className="mx-2"/><br/>Resume</Button>
+                </Col>
+                </Row>
+               
+                </div>
                 
-            </Row>
+            
             </Container>
         </section>
         

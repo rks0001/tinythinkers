@@ -48,26 +48,33 @@ const Footer = () => {
 
                     
                     <Col >
-                        <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="Twitter"><a href="https://twitter.com/ranjitkalita5o5" target="_blank" rel="noreferrer"><FaTwitter className="skillicon" color="#fff" fontSize="24px"  /></a></Row>
+                        <div className="footerlinks" data-tooltip="top" role="tooltip" aria-label="Twitter"><a href="https://twitter.com/ranjitkalita5o5" target="_blank" rel="noreferrer"><FaTwitter className="skillicon" color="#fff" fontSize="24px"  /></a></div>
                         
                     </Col>
                     <Col>
-                        <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="LinkedIn"><a href="https://www.linkedin.com/in/ranjitkalita/" target="_blank" rel="noreferrer"><FaLinkedinIn className="skillicon" color="#fff" fontSize="24px"  /></a></Row>
+                        <div className="footerlinks" data-tooltip="top" role="tooltip" aria-label="LinkedIn"><a href="https://www.linkedin.com/in/ranjitkalita/" target="_blank" rel="noreferrer"><FaLinkedinIn className="skillicon" color="#fff" fontSize="24px"  /></a></div>
                     </Col>
                     
                     <Col >
-                        <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="LeetCode"><a href="https://github.com/rks0001" target="_blank" rel="noreferrer"><SiLeetcode className="skillicon" color="#fff" fontSize="24px"  /></a></Row>
+                        <div className="footerlinks" data-tooltip="top" role="tooltip" aria-label="LeetCode"><a href="https://github.com/rks0001" target="_blank" rel="noreferrer"><SiLeetcode className="skillicon" color="#fff" fontSize="24px"  /></a></div>
                     </Col>
 
+                    <Row className='mx-auto px-1 py-3'>
                     <Col>
-                      <Row className="footerlinks" data-tooltip="top" role="tooltip" aria-label="GitHub"><a href="https://github.com/rks0001" target="_blank" rel="noreferrer"><FaGithub className="skillicon" color="#fff" fontSize="24px"  /></a></Row>
+                      <div className="footerlinks" data-tooltip="top" role="tooltip" aria-label="GitHub"><a href="https://github.com/rks0001" target="_blank" rel="noreferrer"><FaGithub className="skillicon" color="#fff" fontSize="24px"  /></a></div>
                     </Col>
 
                 
 
                     <Col> 
-                    <Row className="footerlinks" ><Link  to="home" spy={true} smooth={false}> <div><IoIosArrowDropupCircle className="skillicon" color="#fff" fontSize="24px"  /></div> </Link></Row>
+                    <div className="footerlinks" ><Link  to="home" spy={true} smooth={false}> <div><IoIosArrowDropupCircle className="skillicon" color="#fff" fontSize="24px"  /></div> </Link></div>
                     </Col>
+
+                    <Col>
+                    </Col>
+
+                    </Row>
+                    
 
                 </Row>
             </Container>
