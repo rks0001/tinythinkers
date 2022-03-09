@@ -1,5 +1,8 @@
 /* -------NAVBAR(HEADER)------- */
 @media screen and (min-width: 601px) {
+  .smallhead {
+    display: none;
+  }
   .navbaar {
     padding: 12px 20px 12px 20px;
     background-color: #1c1c1f;
@@ -34,30 +37,36 @@
   font-weight: 500;
 }
 
+/* Small Screens */
+
 /* -------NAVBAR(small)------- */
 @media screen and (max-width: 600px) {
-  .navbaar {
+  .bighead {
+    display: none;
+  }
+  .navbaars {
     padding: 10px 12px;
     background-color: #1c1c1f;
     z-index: 2;
   }
 
-  .logo {
+  .logos {
     font-size: 24px;
     text-align: left;
     letter-spacing: -1px;
     color: #fffcfc;
     font-weight: 600;
+    padding-left: 40px;
   }
 
-  .navlnk {
+  .navlnks {
     color: #fffcfc;
     font-size: 14px;
     font-weight: 500;
     padding: 0 16px 0 16px;
   }
 
-  .navlnk:hover {
+  .navlnks:hover {
     color: #fffcfc;
     font-size: 14px;
     font-weight: 500;
