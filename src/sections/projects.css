@@ -113,6 +113,9 @@
 
   /* -------change the side spaces <---[CARDS]----> */
 
+  .projects {
+    padding: 0;
+  }
   .crd_body {
     color: #fffcfc;
   }

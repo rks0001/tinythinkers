@@ -32,8 +32,8 @@ const Projects = ({project}) => {
 
         
             <div className="probtnncontainer">
-            <Button className ='probtnn' variant="outline-dark" size="sm" href={project.link} target="_blank"><BsLink45Deg/> Website</Button>
-            <Button className ='probtnn' variant="outline-dark" size="sm" href={project.link} target="_blank"><FiGithub/> GitHub</Button>
+            <Button className ='probtnn' variant="outline-dark" size="sm" href={project.linkone} target="_blank"><BsLink45Deg/> Website</Button>
+            <Button className ='probtnn' variant="outline-dark" size="sm" href={project.linktwo} target="_blank"><FiGithub/> GitHub</Button>
             </div>
 
         </Card.Body>
