@@ -41,6 +41,7 @@ const projects = [
 
        
     },
+    
     {
       _id: '4',
       name: 'Amazon-clone ',
@@ -62,16 +63,7 @@ const projects = [
         tool_3: 'MongoDB',
     },
     
-    {
-      _id: '6',
-      name: 'Project-Name',
-      image: '/images/project.png',
-      description:
-        'Description',
-        tool_1: 'null',
-        tool_2: 'null',
-        tool_3: 'null',
-    },
+   
   ]
   
   export default projects
