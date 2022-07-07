@@ -4,7 +4,7 @@ import React from 'react'
 
 const Contact2 = () => {
     return (
-        <section className="sctn_three">
+        <section className="sctn_four">
              <div className="projectcontainer">
             <h1 className="project1"> Contact Me</h1>
             </div>

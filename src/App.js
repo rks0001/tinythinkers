@@ -1,9 +1,4 @@
 import React from "react"
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Section1 from './sections/Section1'
@@ -20,14 +15,7 @@ function App() {
 
     <>
 
-<BrowserRouter>
-      <Routes>
-        <Route path="/certifications" element={<Certifications />} />
-        
-      </Routes>
 
-      </BrowserRouter>
-   
 
           <div id="home">
               <Header/>
@@ -48,10 +36,15 @@ function App() {
               <Section4/>
             </div>
 
+            <div id="certification">
+              <Certifications/>
+            </div>
+            
             <div id="contact" >
               <Contact2/>
             </div>
-          
+
+            
     
       <Footer/>
       

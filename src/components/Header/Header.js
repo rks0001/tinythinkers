@@ -17,8 +17,9 @@ const Header = () => {
                   <Nav.Link  ><Link  to="about" spy={true} smooth={false}><span className="navlnk">About Me</span></Link></Nav.Link>
                   <Nav.Link  ><Link  to="skills" spy={true} smooth={false}><span className="navlnk">Skills</span></Link></Nav.Link>
                   <Nav.Link ><Link  to="projects" spy={true} smooth={false}><span className="navlnk">Projects</span></Link></Nav.Link>
+                  <Nav.Link ><Link  to="certification" spy={true} smooth={false}><span className="navlnk">Certifications</span></Link></Nav.Link>
                   <Nav.Link ><Link  to="contact" spy={true} smooth={false}><span className="navlnk">Contact Me</span></Link></Nav.Link>
-                  <Nav.Link href="/certifications" ><span className="navlnk">Certifications <BiLinkExternal/> </span></Nav.Link>
+                  
                 </Nav> 
   
               </Navbar.Collapse>
@@ -40,8 +41,9 @@ const Header = () => {
                   <Nav.Link  ><Link  to="about" spy={true} smooth={false}><span className="navlnks">About Me</span></Link></Nav.Link>
                   <Nav.Link  ><Link  to="skills" spy={true} smooth={false}><span className="navlnks">Skills</span></Link></Nav.Link>
                   <Nav.Link ><Link  to="projects" spy={true} smooth={false}><span className="navlnks">Projects</span></Link></Nav.Link>
+                  <Nav.Link ><Link  to="certification" spy={true} smooth={false}><span className="navlnk">Certifications</span></Link></Nav.Link>
                   <Nav.Link ><Link  to="contact" spy={true} smooth={false}><span className="navlnks">Contact Me</span></Link></Nav.Link>
-                  <Nav.Link href="/certifications" ><span className="navlnks">Certifications <BiLinkExternal/> </span></Nav.Link>
+
                 </Nav> 
   
               </Navbar.Collapse>

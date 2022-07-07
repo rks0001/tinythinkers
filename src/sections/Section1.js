@@ -1,6 +1,7 @@
 import React from 'react'
 import {Container, Row, Col,Button} from 'react-bootstrap'
 import {Link } from 'react-scroll'
+import {HiDocumentDownload} from 'react-icons/hi'
 import './sectionone.css'
 
 const Section1 = () => {
@@ -18,8 +19,8 @@ const Section1 = () => {
                     <h4 className="intro1">Hello, I'm</h4>
                     <h1 className="nameintro"> Ranjit Kalita</h1>
                     <h5 className="intro2">Front end Developer and UI/UX Designer</h5>
-                    <Button className="contactbutton" variant="outline-dark" size="sm"  href="#" target="_blank "> <Link  to="contact" spy={true} smooth={false}> Contact Me</Link></Button>
-            
+                   
+                    <Button className="contactbutton" variant="outline-dark" size="sm"  href="https://drive.google.com/file/d/1GV1JO8U8a1-yeBDuxcXIEmmHaoP3OBEb/view?usp=sharing" target="_blank ">Resume<HiDocumentDownload className="mx-2"/></Button>
                     </div>
                     </Col>
                     <Col>
@@ -44,8 +45,8 @@ const Section1 = () => {
         <h4 className="intro1">Hello, I'm</h4>
         <h1 className="nameintro"> Ranjit Kalita</h1>
         <h5 className="intro2">Front end Developer and UI/UX Designer</h5>
-        <Button className="contactbutton" variant="outline-dark" size="sm"  href="#" target="_blank "> <Link  to="contact" spy={true} smooth={false}> Contact Me</Link></Button>
-
+       
+        <Button className="contactbutton" variant="outline-dark" size="sm"  href="https://drive.google.com/file/d/1GV1JO8U8a1-yeBDuxcXIEmmHaoP3OBEb/view?usp=sharing" target="_blank "><HiDocumentDownload className="mx-2"/>Resume</Button>
         </div>
         </Col>
         

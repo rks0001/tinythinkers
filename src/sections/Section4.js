@@ -44,9 +44,7 @@ const Section4 = () => {
         Web 2
             </div>
             
-            <div className="web3" onClick={showProjectsAgain}>
-            Web 3
-            </div> 
+           
     </div>
     </Container>
     
@@ -60,7 +58,15 @@ const Section4 = () => {
     </Row>
     </Container>
 
-
+    <Container>
+    <div className='categories'>
+        
+            
+            <div className="web3" onClick={showProjectsAgain}>
+            Web 3
+            </div> 
+    </div>
+    </Container>
 <Container className='project' id="web3project">
     <Row>
         {projectstwo.map((project) => (
@@ -82,15 +88,44 @@ const Section4 = () => {
             <p className="projects2">These are some of the projects that I've worked on. 
             I've created some projects that help me understand more of the technology that I use.</p>
         </div>
-        <Container className='projects'>
-            <Row>
-                {projects.map((project) => (
-                <Col sm={12} md={6} lg={4} xl={4}>
+        <Container>
+    <div className='categories'>
+        <div className="web2" onClick={showProjects}>
+        Web 2
+            </div>
+            
+           
+    </div>
+    </Container>
+    
+    <Container className='project' id="web2project">
+    <Row>
+        {projects.map((project) => (
+            <Col sm={12} md={6} lg={4} xl={4}>
                 <Projects project={project}/>
-                </Col>
-                ))}
-            </Row>
-            </Container>
+            </Col>
+        ))}
+    </Row>
+    </Container>
+
+    <Container>
+    <div className='categories'>
+        
+            
+            <div className="web3" onClick={showProjectsAgain}>
+            Web 3
+            </div> 
+    </div>
+    </Container>
+<Container className='project' id="web3project">
+    <Row>
+        {projectstwo.map((project) => (
+            <Col sm={12} md={6} lg={4} xl={4}>
+                <Projects project={project}/>
+            </Col>
+        ))}
+    </Row>
+    </Container>
 
             <h1 className="repo" ><a  className="repo"   href="https://github.com/rks0001" target="_blank" rel="noreferrer"> Repositories on GitHub</a></h1>
             </section>
