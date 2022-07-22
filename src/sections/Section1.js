@@ -19,7 +19,7 @@ const Section1 = () => {
                     <h1 className="nameintro"> Ranjit Kalita</h1>
                     <h5 className="intro2">Front end Developer and UI/UX Designer</h5>
                    
-                    <Button className="contactbutton" variant="outline-dark" size="sm"  href="https://drive.google.com/file/d/1GV1JO8U8a1-yeBDuxcXIEmmHaoP3OBEb/view?usp=sharing" target="_blank ">Resume<HiDocumentDownload className="mx-2"/></Button>
+                    <Button className="contactbutton" variant="outline-dark" size="sm"  href="https://drive.google.com/file/d/1E9inh1GQ4DsTnIlQDT5DBDiMu62evs7G/view?usp=sharing" target="_blank ">Resume<HiDocumentDownload className="mx-2"/></Button>
                     </div>
                     </Col>
                     <Col>
