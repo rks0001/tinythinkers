@@ -51,6 +51,9 @@ const projects = [
         tool_1: 'React',
         tool_2: 'Firebase',
         tool_3: 'null',
+       
+
+        
     },
     {
       _id: '5',
@@ -61,6 +64,21 @@ const projects = [
         tool_1: 'React',
         tool_2: 'Nodejs',
         tool_3: 'MongoDB',
+        linkone: 'https://drive.google.com/file/d/1BUU9aB0k3NTyGelks90fDQGoOh76GqKB/view?usp=sharing',
+    },
+
+    {
+      _id: '6',
+      name: 'Workout Buddy ',
+      image: '/images/project.png',
+      description:
+        'This is an application to track all your workouts and customize them',
+        tool_1: 'React',
+        tool_2: 'Nodejs',
+        tool_3: 'MongoDB',
+
+        linkone: 'https://drive.google.com/file/d/1BUU9aB0k3NTyGelks90fDQGoOh76GqKB/view?usp=sharing',
+       
     },
     
    
