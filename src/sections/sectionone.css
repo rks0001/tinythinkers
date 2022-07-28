@@ -2,7 +2,7 @@
 @media screen and (min-width: 601px) {
   .sctn_one {
     text-align: left;
-    padding: 60px 40px 60px 40px;
+    padding: 3.75rem 2.5rem;
     background-color: #121214;
     min-height: 110vh;
   }
@@ -76,7 +76,7 @@
 @media screen and (max-width: 600px) {
   .sctn_one_small {
     text-align: left;
-    padding: 40px;
+    padding: 3rem;
     background-color: #121214;
     min-height: 50vh;
   }

@@ -51,6 +51,29 @@
     color: #5429cf;
     text-decoration: underline;
   }
+
+  .tabss{
+    margin: 0 5rem ;
+    border: none;
+    padding: 1.25rem;
+   
+   
+  }
+  .tabone{
+    min-height: 80vh;
+  }
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: rgb(255, 255, 255);
+    background-color: #1c1c1f;
+    border-color: #5429cf;
+}
+
+.nav-tabs .nav-link:hover{
+    color: white;
+    border-color: #5429cf;
+}
+ 
 }
 
 /* ------Small Screens------- */
@@ -115,4 +138,23 @@
     color: #5429cf;
     text-decoration: underline;
   }
+
+  .tabss{
+    margin: 0 1rem ;
+    border: none;
+    padding: 1.25rem;
+   
+  }
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: rgb(255, 255, 255);
+    background-color: #1c1c1f;
+    border-bottom: #5429cf;
+    
+}
+
+.nav-tabs .nav-link:hover{
+    color: white;
+    border-color: #5429cf;
+}
 }
