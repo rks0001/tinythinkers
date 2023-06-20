@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container, Card ,Button} from 'react-bootstrap'
 import {BsLink45Deg} from 'react-icons/bs'
-import {FiGithub} from 'react-icons/fi'
+import {Link} from 'react-router-dom'
 import './projects.css'
 
 const Projects = ({project}) => {
@@ -18,22 +18,14 @@ const Projects = ({project}) => {
             <strong>{project.description}</strong>
             </Card.Text>
             
-            <Card.Text className="project_tool">
-            <div>{project.tool_1}</div>
-            </Card.Text>
-            
-            <Card.Text className="project_tool" >
-            <div>{project.tool_2}</div>
-            </Card.Text>
-
-            <Card.Text className="project_tool" >
-            <div>{project.tool_3}</div>
-            </Card.Text>
+           
 
         
             <div className="probtnncontainer">
-            <Button className ='probtnn' variant="outline-dark" size="sm" href={project.linkone} target="_blank"><BsLink45Deg/> Website</Button>
-            <Button className ='probtnn' variant="outline-dark" size="sm" href={project.linktwo} target="_blank"><FiGithub/> GitHub</Button>
+            <Button className ='probtnn' variant="outline-dark" size="sm" href={project.linkone} target="_blank"><BsLink45Deg/> <Link  to={project.where} spy={true} smooth={false} className='where'>
+                 Learn Now
+                </Link></Button>
+            
             </div>
 
         </Card.Body>

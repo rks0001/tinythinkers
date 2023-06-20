@@ -1,7 +1,9 @@
 /* -----------CARD COMPONENT----------- */
 @media screen and (min-width: 601px) {
+  
+  
   .crd {
-    background-color: #121214;
+    background-color: #ffffff;
     border: solid;
     border-color: #121214;
     margin: 10px 10px 10px 10px;
@@ -9,18 +11,24 @@
     min-width: 320px;
     border-radius: 6px;
     border-width: 4px;
-    margin: 16px 2px 16px 2px;
+   
     transition: 0.2s;
   }
 
+  .where{
+    text-decoration: none;
+    color: #fff;
+  }
+
   .crd:hover {
-    border-bottom-color: #5429cf;
+    border-bottom-color: #0054A6;
     transition-delay: 0.1s;
   }
 
   .probtnn {
-    background-color: #5429cf;
+    background-color: #0054A6;
     color: #fffcfc;
+    border: none;
     font-size: 14px;
     text-align: center;
     padding: 4px 12px 4px 12px;
@@ -28,7 +36,7 @@
     transition: ease-in-out 0.3s;
   }
   .probtnn:hover {
-    background-color: #5d39cb;
+    background-color: #1d6ab7;
     transition-delay: 0.1s;
     color: #fffcfc;
   }
@@ -44,7 +52,8 @@
     padding: 10px;
   }
   .crd_body {
-    color: #fffcfc;
+    color: #000000;
+    
   }
 
   .project_title {
@@ -73,9 +82,9 @@
 /* -----------CARD COMPONENT----------- */
 @media screen and (max-width: 600px) {
   .crd {
-    background-color: #121214;
+    background-color: #ffffff;
     border: solid;
-    border-color: #121214;
+    border-color: #121212;
     margin: 10px 10px 10px 10px;
     min-height: 220px;
     min-width: 320px;
@@ -84,15 +93,24 @@
     margin: 16px 2px 16px 2px;
     transition: 0.2s;
   }
+  .where{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .crdcontainer{
+  margin: 0;
+  }
 
   .crd:hover {
-    border-bottom-color: #5429cf;
+    border-bottom-color: #0054A6;
     transition-delay: 0.1s;
   }
 
   .probtnn {
-    background-color: #5429cf;
+    background-color: #0054A6;
     color: #fffcfc;
+    border: none;
     font-size: 14px;
     text-align: center;
     padding: 4px 12px 4px 12px;
@@ -100,7 +118,7 @@
     transition: ease-in-out 0.3s;
   }
   .probtnn:hover {
-    background-color: #5d39cb;
+    background-color: #1d6ab7;
     transition-delay: 0.1s;
     color: #fffcfc;
   }
@@ -117,7 +135,7 @@
     padding: 0;
   }
   .crd_body {
-    color: #fffcfc;
+    color: #000000;
   }
 
   .project_title {

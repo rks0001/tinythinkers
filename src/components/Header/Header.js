@@ -1,61 +1,125 @@
-import React from 'react'
-import {Navbar, Nav} from 'react-bootstrap'
-import {Link} from 'react-scroll'
-
-import './header.css'
+import React,{useState} from "react";
+import { Navbar, Nav, Button, } from "react-bootstrap";
+import { Link as Link2 } from "react-scroll";
+import { Link } from "react-router-dom";
+import ModalDialog from "../../pages/ModalDialog";
+import "./header.css";
 
 const Header = () => {
+
+  const [open, setOpen] = useState(false);
+
+  // function to handle modal open
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  // function to handle modal close
+  const handleClose = () => {
+    setOpen(false);
+  };
   return (
     <>
-       <header className='bighead'>
-            <Navbar className= "navbaar"  variant="dark" expand="lg" collapseOnSelect>
-            
-                <Navbar.Brand  href="/" ><span className="logo" >Ranjit Kalita</span></Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className='mx-auto naav'>
-                  <Nav.Link  ><Link  to="about" spy={true} smooth={false}><span className="navlnk">About Me</span></Link></Nav.Link>
-                  <Nav.Link  ><Link  to="skills" spy={true} smooth={false}><span className="navlnk">Skills</span></Link></Nav.Link>
-                  <Nav.Link ><Link  to="projects" spy={true} smooth={false}><span className="navlnk">Projects</span></Link></Nav.Link>
-                  <Nav.Link ><Link  to="certification" spy={true} smooth={false}><span className="navlnk">Certifications</span></Link></Nav.Link>
-                  <Nav.Link ><Link  to="contact" spy={true} smooth={false}><span className="navlnk">Contact Me</span></Link></Nav.Link>
-                  
-                </Nav> 
-  
-              </Navbar.Collapse>
-            
-            </Navbar>
+      <header className="bighead">
+        <Navbar className="navbaar" variant="dark" expand="lg" collapseOnSelect>
+          <Navbar.Brand href="/">
+            <span className="logo">TinyThinkers</span>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mx-auto naav">
+              <Nav.Link>
+                <Link2 to="about" spy={true} smooth={false}>
+                  <span className="navlnk">About Us</span>
+                </Link2>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="colors" spy={true} smooth={false}>
+                  <span className="navlnk">Colors</span>
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="english" spy={true} smooth={false}>
+                  <span className="navlnk">English</span>
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="numbers" spy={true} smooth={false}>
+                  <span className="navlnk">Numbers</span>
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="calc" spy={true} smooth={false}>
+                  <span className="navlnk">Calculator</span>
+                </Link>
+              </Nav.Link>
+              <div>
+                <Button className="signupbtn" onClick={handleOpen}>
+                  <span className="icontext">Sign In / Sign Up</span>
+                </Button>
 
-            
-          </header>
+                <ModalDialog open={open} handleClose={handleClose} />
+               
+              </div>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </header>
 
-          {/* Small Screens */}
+      {/* Small Screens */}
 
-          <header className="smallhead">
-            <Navbar className= "navbaars"  variant="dark" expand="lg" collapseOnSelect>
-            
-                <Navbar.Brand  href="/" ><span className="logos" >Ranjit Kalita</span></Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className='naavs'>
-                  <Nav.Link  ><Link  to="about" spy={true} smooth={false}><span className="navlnks">About Me</span></Link></Nav.Link>
-                  <Nav.Link  ><Link  to="skills" spy={true} smooth={false}><span className="navlnks">Skills</span></Link></Nav.Link>
-                  <Nav.Link ><Link  to="projects" spy={true} smooth={false}><span className="navlnks">Projects</span></Link></Nav.Link>
-                  <Nav.Link ><Link  to="certification" spy={true} smooth={false}><span className="navlnk">Certifications</span></Link></Nav.Link>
-                  <Nav.Link ><Link  to="contact" spy={true} smooth={false}><span className="navlnks">Contact Me</span></Link></Nav.Link>
+      <header className="smallhead">
+        <Navbar
+          className="navbaars"
+          variant="dark"
+          expand="lg"
+          collapseOnSelect
+        >
+          <Navbar.Brand href="/">
+            <span className="logos">Tiny Thinkers</span>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mx-auto naav">
+              <Nav.Link>
+                <Link2 to="about" spy={true} smooth={false}>
+                  <span className="navlnk">About Us</span>
+                </Link2>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="colors" spy={true} smooth={false}>
+                  <span className="navlnk">Colors</span>
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="english" spy={true} smooth={false}>
+                  <span className="navlnk">English</span>
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="numbers" spy={true} smooth={false}>
+                  <span className="navlnk">Numbers</span>
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="calc" spy={true} smooth={false}>
+                  <span className="navlnk">Calculator</span>
+                </Link>
+              </Nav.Link>
+              <div>
+                <Button className="signupbtn" onClick={handleOpen}>
+                  <span className="icontext">Sign In / Sign Up</span>
+                </Button>
 
-                </Nav> 
-  
-              </Navbar.Collapse>
-            
-            </Navbar>
-
-            
-          </header>
+                <ModalDialog open={open} handleClose={handleClose} />
+               
+              </div>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </header>
     </>
-   
-  )
-}
+  );
+};
 
-export default Header
-
+export default Header;

@@ -1,9 +1,8 @@
 import React from 'react'
-import { Container, Row, Col, Tabs, Tab } from 'react-bootstrap'
-
+import { Container, Row, Col, } from 'react-bootstrap'
 import Projects from './Projects'
 import projects from '../projects'
-import projectstwo from '../projectstwo'
+
 
 import './sectionfour.css'
 
@@ -24,45 +23,26 @@ const Section4 = () => {
             <section className="sctn_four">
 
                 <div className="projectcontainer">
-                    <h1 className="project1"> Projects</h1>
-                    <p className="project2">These are some of the projects that I've worked on. <br />
-                        I've created some projects that help me understand <br />more of the technology that I use.</p>
+                    <h1 className="project1"> What we teach?</h1>
+                    <p className="project2">Tiny Thinkers combines entertainment and education seamlessly,<br/> ensuring children are motivated and engaged throughout their<br/>learning journey. With intuitive navigation and <br/>age-appropriate content, our app provides a <br/>safe and child-friendly environment.</p>
                 </div>
 
-                {/* WEB 2 */}
-                <Tabs
-                    defaultActiveKey="web2"
-                    id="uncontrolled-tab-example"
-                    className=" tabss"
-                >
-                    <Tab className="tabone" eventKey="web2" title="Web 2">
+                
                         <Container className='project' >
-                            <Row>
+                            <Row className='rowpro'>
                                 {projects.map((project) => (
-                                    <Col sm={12} md={6} lg={4} xl={4}>
+                                    <Col className="colpro" key={project.id} sm={12} md={6} lg={4} xl={3}>
                                         <Projects project={project} />
                                     </Col>
                                 ))}
+                                
                             </Row>
                         </Container>
-                    </Tab>
+                 
 
-                    {/* WEB 3 */}
-                    <Tab className="tabone" eventKey="web3" title="Web 3">
-                        <Container className='project' id="web3project">
-                            <Row>
-                                {projectstwo.map((project) => (
-                                    <Col sm={12} md={6} lg={4} xl={4}>
-                                        <Projects project={project} />
-                                    </Col>
-                                ))}
-                            </Row>
-                        </Container>
-                    </Tab>
+                    
 
-                </Tabs>
-
-                <h1 className="repo" ><a className="repo" href="https://github.com/rks0001" target="_blank" rel="noreferrer"> Repositories on GitHub</a></h1>
+             
             </section>
 
 
@@ -70,43 +50,22 @@ const Section4 = () => {
 
             <section className="sctn_four_small">
                 <div className="projectscontainer">
-                    <h1 className="projects1"> Projects</h1>
-                    <p className="projects2">These are some of the projects that I've worked on.
-                        I've created some projects that help me understand more of the technology that I use.</p>
+                    <h1 className="projects1"> What we Teach?</h1>
+                    <p className="projects2">Tiny Thinkers combines entertainment and education seamlessly, ensuring children are motivated and engaged throughout their learning journey. With intuitive navigation and age-appropriate content, our app provides a safe and child-friendly environment.</p>
                 </div>
-                <Tabs
-                    defaultActiveKey="web2"
-                    id="uncontrolled-tab-example"
-                    className=" tabss"
-                >
-                    <Tab eventKey="web2" title="Web 2">
+                
                         <Container className='project' >
-                            <Row>
+                            <Row className='rowpro'>
                                 {projects.map((project) => (
-                                    <Col sm={12} md={6} lg={4} xl={4}>
+                                    <Col className='colpro' key={project.id} sm={12} md={6} lg={4} xl={3}>
                                         <Projects project={project} />
                                     </Col>
                                 ))}
                             </Row>
                         </Container>
-                    </Tab>
-
-                    {/* WEB 3 */}
-                    <Tab eventKey="web3" title="Web 3">
-                        <Container className='project' id="web3project">
-                            <Row>
-                                {projectstwo.map((project) => (
-                                    <Col sm={12} md={6} lg={4} xl={4}>
-                                        <Projects project={project} />
-                                    </Col>
-                                ))}
-                            </Row>
-                        </Container>
-                    </Tab>
-
-                </Tabs>
-
-                <h1 className="repo" ><a className="repo" href="https://github.com/rks0001" target="_blank" rel="noreferrer"> Repositories on GitHub</a></h1>
+                    
+                        
+                
             </section>
         </>
 

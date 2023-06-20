@@ -1,83 +1,69 @@
 const projects = [
     {
       _id: '1',
-      name: 'Portfolio Website',
+      name: 'Colors',
       image: '/images/portfolio_project2.jpg',
       description:
-        'This project was created using react. This is my personal portfolio',
-      tool_1: 'React',
-      tool_2: 'React-Bootstrap',
-      tool_3: 'null',
+        'This app has some cool colours which you can play with, which will also display any colour you need to know about.',
+     
       
-      linkone:'https://ranjitkalita.netlify.app/',
-      linktwo:'https://github.com/rks0001/ranjitkalita',
+      where:'/colors',
+
     },
     {
       _id: '2',
-      name: 'Expense Tracker',
+      name: 'Alphabets',
       image: '/images/project.png',
       description:
-        'Track your expenses with this app ',
-        tool_1: 'React',
-        tool_2: 'null',
-        tool_3: 'null',
+        'Alphabets are a set of letters or symbols in a fixed order used to represent the basic set of speech sounds of a language, which consists of a set of letters from A to Z.',
+       
 
-        linkone: 'https://checkyourexpense.netlify.app/',
-        linktwo:'https://github.com/rks0001/expensetracker',
+        where:'/alphabets',
       
     },
     {
       _id: '3',
-      name: 'Weather Forecast App ',
+      name: 'English',
       image: '/images/project.png',
       description:
-        'Check Weather',
+        'Helps you learn new words and the most common words in english. It also allows you to study the words and try to spell them offhand so as to improve your vocabulary and explore language.',
         tool_1: 'React',
         tool_2: 'OpenWeather API',
         tool_3: 'null',
 
-        linkone: 'https://checkweatherup.netlify.app/',
-        linktwo:'https://github.com/rks0001/checkweather',
+        where:'/english',
 
        
     },
     
     {
       _id: '4',
-      name: 'Amazon-clone ',
+      name: 'Numbers ',
       image: '/images/project.png',
       description:
-        'This is a clone of Amazon website (work in progress)',
-        tool_1: 'React',
-        tool_2: 'Firebase',
-        tool_3: 'null',
-       
+        'Number is an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity and used in counting and making calculations. ',
+        
+        where:'/numbers',
 
         
     },
     {
       _id: '5',
-      name: 'E-Commerce Website ',
+      name: 'Maths',
       image: '/images/project.png',
       description:
-        'The TeaShirt Company (work in progress)',
-        tool_1: 'React',
-        tool_2: 'Nodejs',
-        tool_3: 'MongoDB',
-        linkone: 'https://drive.google.com/file/d/1BUU9aB0k3NTyGelks90fDQGoOh76GqKB/view?usp=sharing',
+        'Mathematics is like an exciting adventure where you get to explore the world of numbers, shapes, and patterns. Its all about solving puzzles, playing with numbers, and discovering how things fit together.',
+        
+        where:'/maths',
     },
 
     {
       _id: '6',
-      name: 'Workout Buddy ',
+      name: 'Calculator ',
       image: '/images/project.png',
       description:
-        'This is an application to track all your workouts and customize them',
-        tool_1: 'React',
-        tool_2: 'Nodejs',
-        tool_3: 'MongoDB',
-
-        linkone: 'https://drive.google.com/file/d/1BUU9aB0k3NTyGelks90fDQGoOh76GqKB/view?usp=sharing',
+        'Test your calculator skills with ease by clicking Learn Now to see some fantastic arithmetic functions we have. It will be fun all through as you get to know the basic arithmetic operations in action.',
+        where:'/calc',
        
     },
     

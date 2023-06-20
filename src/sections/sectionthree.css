@@ -21,11 +21,11 @@
     -webkit-background-clip: text;
     color: transparent;
     background-size: cover;
-    background-color: #6355d5;
+    background-color: #0054A6;
     background-image: linear-gradient(
       135deg,
-      #6355d5 3%,
-      #5429cf 40%,
+      #0054A6 3%,
+      #0054A6 40%,
       #491ad9 70%
     );
   }
@@ -52,7 +52,7 @@
     border-color: #1c1c1f;
   }
   .skillcol:hover {
-    border-bottom-color: #5429cf;
+    border-bottom-color: #0054A6;
     transition-delay: 0.02s;
   }
 
@@ -168,11 +168,11 @@
     -webkit-background-clip: text;
     color: transparent;
     background-size: cover;
-    background-color: #6355d5;
+    background-color: #0054A6;
     background-image: linear-gradient(
       135deg,
-      #6355d5 3%,
-      #5429cf 40%,
+      #0054A6 3%,
+      #0054A6 40%,
       #491ad9 70%
     );
   }
@@ -199,7 +199,7 @@
     border-color: #1c1c1f;
   }
   .skillcol:hover {
-    border-bottom-color: #5429cf;
+    border-bottom-color: #0054A6;
     transition-delay: 0.02s;
   }
 

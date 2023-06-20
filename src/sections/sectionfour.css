@@ -10,9 +10,16 @@
     display: none;
   }
 
-  .certsecsmall{
-    display: none;
+  .colpro{
+    padding:0;
+    margin: 0 30px;
   }
+
+  .rowpro{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
   .projectcontainer {
     padding-top: 80px;
@@ -27,8 +34,8 @@
     -webkit-background-clip: text;
     color: transparent;
     background-size: cover;
-    background-color: #6357d9;
-    background-image: linear-gradient(135deg, #6357d9 6%, #532dcd 32%);
+    background-color: #0054A6;
+    background-image: linear-gradient(135deg, #0054A6 6%, #0054A6 32%);
   }
   .project2 {
     color: #fffcfc;
@@ -40,7 +47,7 @@
   .repo {
     text-align: center;
     margin-top: 20px;
-    color: #5429cf;
+    color: #0054A6;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
@@ -48,7 +55,7 @@
     margin-top: 20px;
   }
   .repo:hover {
-    color: #5429cf;
+    color: #0054A6;
     text-decoration: underline;
   }
 
@@ -66,12 +73,12 @@
   .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: rgb(255, 255, 255);
     background-color: #1c1c1f;
-    border-color: #5429cf;
+    border-color: #0054A6;
 }
 
 .nav-tabs .nav-link:hover{
     color: white;
-    border-color: #5429cf;
+    border-color: #0054A6;
 }
  
 }
@@ -87,11 +94,20 @@
     padding-bottom: 100px;
     
   }
-
+  .colpro{
+    padding:0;
+  }
+  .rowpro{
+    margin-left: auto;
+    margin-right: auto;
+  }
   .certsec{
     display: none;
   }
-
+.project{
+  margin: 0;
+  padding: 0;
+}
 
   .sctn_four_small {
     background: #1c1c1f;
@@ -114,20 +130,21 @@
     -webkit-background-clip: text;
     color: transparent;
     background-size: cover;
-    background-color: #6357d9;
-    background-image: linear-gradient(135deg, #6357d9 6%, #532dcd 32%);
+    background-color: #0054A6;
+    background-image: linear-gradient(135deg, #0054A6 6%, #0054A6 32%);
   }
   .projects2 {
     color: #fffcfc;
     font-size: 13px;
     font-weight: 500;
     line-height: normal;
+    text-align: justify;
   }
 
   .repo {
     text-align: center;
     margin-top: 20px;
-    color: #5429cf;
+    color: #0054A6;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
@@ -135,7 +152,7 @@
     margin-top: 20px;
   }
   .repo:hover {
-    color: #5429cf;
+    color: #0054A6;
     text-decoration: underline;
   }
 
@@ -149,12 +166,12 @@
   .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: rgb(255, 255, 255);
     background-color: #1c1c1f;
-    border-bottom: #5429cf;
+    border-bottom: #0054A6;
     
 }
 
 .nav-tabs .nav-link:hover{
     color: white;
-    border-color: #5429cf;
+    border-color: #0054A6;
 }
 }

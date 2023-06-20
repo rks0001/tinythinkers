@@ -1,0 +1,66 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mathcon{
+    min-height: 80vh;
+    background-color: #1c1c1f;
+    }
+    .mathtext{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+    
+    }
+   
+    .mathtext2{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+        color: white;
+    
+    }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px 60px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #0054A6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #387ec4;
+  }
+  
