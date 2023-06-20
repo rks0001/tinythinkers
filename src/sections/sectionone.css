@@ -42,10 +42,9 @@
     -webkit-background-clip: text;
     color: transparent;
     background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-size: cover;
+   
+   
+    
     background-color: #0054A6;
     background-image: linear-gradient(
       135deg,

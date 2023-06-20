@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row, Col,Button} from 'react-bootstrap'
-import {HiDocumentDownload} from 'react-icons/hi'
+
 import './sectionone.css'
 import {Link} from 'react-scroll'
 
